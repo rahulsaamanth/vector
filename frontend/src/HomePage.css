@@ -1,0 +1,61 @@
+input[type="text"], input[type="date"] {
+    margin: 8px;
+    padding: 8px;
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    button {
+    margin: 8px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the table */
+  table {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Styles for edit and delete buttons within table */
+  table button {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+  }
+  
+  /* Styles for the main container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the heading */
+  .heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  /* Styles for the form and table sections */
+  .form-section, .table-section {
+    margin-bottom: 40px;
+  }
+  
